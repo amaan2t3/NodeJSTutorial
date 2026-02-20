@@ -1,0 +1,25 @@
+{
+  "name": "nodejstutorial",
+  "version": "1.0.0",
+  "description": "nodejstutorial",
+  "homepage": "https://github.com/AmanUllah-99/NodeJSTutorial#readme",
+  "bugs": {
+    "url": "https://github.com/AmanUllah-99/NodeJSTutorial/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmanUllah-99/NodeJSTutorial.git"
+  },
+  "license": "ISC",
+  "author": "amaan",
+  "type": "commonjs",
+  "main": "01basic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11",
+    "prompt-sync": "^4.2.0"
+  }
+}
