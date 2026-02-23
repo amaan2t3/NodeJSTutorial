@@ -1,22 +1,49 @@
-const { log } = require('console');
-const note = require('./note.js')
-let fs = require('fs')
-let os = require('os')
-
-let user = os.userInfo()
-// console.log(user.username);
-
-fs.writeFile('greeting.txt', 'Hey'+  "there" + '\n' , ()=>{
-    console.log('file is created');
-    
-})
+  /////////////////Functions
  
+ function add (a,b){
+    return a+b
+ }
 
-console.log(note.age);
+let add = function(a,b){
+    return a+b
+}
 
-let age = note.age
-const result = note.numberAdd(age + 8 ,1)
-console.log( "result now ",result);
+let add = (a,b) =>{return a+b}
+
+let add = (a,b) => a+b;
+
+ let result = add(2,22)
+
+ console.log(result);
+
+///// another way written function
+
+(function(){
+    console.log("amaan is added");
+    
+})();
+ 
+///////////////////////////// CallBack function
+ 
+function callback(){
+    console.log("callback function is call");
+    
+}
+
+const add = function (a,b,callback){
+    let result = a+b;
+    console.log("ans",result);  /// main function work done
+    callback()
+    
+}
+
+add(7,11,callback) 
 
 
-
+const add = function (a,b,callback){
+    let result = a+b;
+    console.log("ans",result);  /// main function work done
+    callback()
+    
+}
+add(8,9, ()=> console.log("added again "))
