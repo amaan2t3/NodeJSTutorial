@@ -4006,5 +4006,29 @@
         "gender": "male",
         "jobtitle": "Software Dev",
         "id": 501
+    },
+    {
+        "first_name": "Haider",
+        "last_name": "Aly",
+        "email": "Aly001@gmail.com",
+        "gender": "male",
+        "jobtitle": "AI Eng",
+        "id": 502
+    },
+    {
+        "first_name": "Bushu",
+        "last_name": "Aly",
+        "email": "bushu001@gmail.com",
+        "gender": "male",
+        "jobtitle": "AI ML Eng",
+        "id": 503
+    },
+    {
+        "first_name": "Israr",
+        "last_name": "Tomi",
+        "email": "email@gmail.com",
+        "gender": "male",
+        "jobtitle": "AI ML Eng",
+        "id": 504
     }
 ]

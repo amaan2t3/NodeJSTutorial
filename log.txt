@@ -1,33 +1,25 @@
- 1771914247564: /search?search_query=javascript_and+node+Js+tutorial+on+youtube New Req Received
-1771916178929: / New Req Received
-1771916187693: / New Req Received
-1771916201061: GET / New Req Received
-1771916312464: GET / New Req Received
-1771916335742: GET / New Req Received
-1771916611882: GET / New Req Received
-1771916634883: GET / New Req Received
-1771916647568: GET / New Req Received
-1771916658360: GET / New Req Received
-1771916896605: GET / New Req Received
-1771916910744: GET / New Req Received
-1771916969414: GET / New Req Received
-1771917228233: GET / New Req Received
-1771917241338: GET / New Req Received
-1771917272798: GET /about New Req Received
-1771917328567: GET /about?myname=aman&userId=1 New Req Received
-1771917452339: GET /about?myname=aman&userId=1 New Req Received
-1771917458477: GET /about?myname=aman&userId=1 New Req Received
-1771917478911: GET /about?myname=aman&userId=1 New Req Received
-1771917480298: GET /about?myname=aman&userId=1 New Req Received
-1771917480795: GET /about?myname=aman&userId=1 New Req Received
-1771917481067: GET /about?myname=aman&userId=1 New Req Received
-1771917487687: GET /about?myname=amaan&userId=1 New Req Received
-1771917602485: GET /about?myname=amaan&userId=1 New Req Received
-1771917604162: GET /about?myname=amaan&userId=1 New Req Received
-1771917625684: GET /about?username=amaan New Req Received
-1771917650814: GET /search?search_query=nodejs New Req Received
-1771918044206: GET /signup New Req Received
-1771919266786: GET / New Req Received
-1771919284977: GET /about New Req Received
-1771919312633: GET /about?myname=aman&userId=1 New Req Received
-1771919327885: GET /about?username=amaan New Req Received
+1772086233306: GET: /api/users      
+1772086256143: GET: /api/users/504
+1772086298859: GET: /api/users/501
+ 1772086380153: GET: /users
+ 1772086429154: ::1 GET: /api/users/500
+        1772087834867: ::1 GET: /api/users
+        1772088644189: ::1 GET: /api/users
+        1772088792328: ::1 GET: /api/users
+        1772088970573: ::1 GET: /api/users
+        1772090782513: ::1 POST: /api/users
+1772091118701: ::1 POST: /api/users
+1772091154683: ::1 GET: /api/users
+1772091687959: ::1 GET: /api/users/44
+1772092842501: ::1 GET: /api/users
+1772092869934: ::1 GET: /api/users
+1772092879832: ::1 GET: /api/users
+1772093169768: ::1 POST: /api/users
+1772093175899: ::1 POST: /api/users
+1772093180427: ::1 POST: /api/users
+1772093376524: ::1 GET: /api/users/577
+1772093473738: ::1 GET: /api/users/577
+1772093485625: ::1 GET: /api/users/577
+1772094022284: ::1 GET: /api/users/504
+1772094022691: ::1 GET: /favicon.ico
+1772094034727: ::1 GET: /api/users/1111
