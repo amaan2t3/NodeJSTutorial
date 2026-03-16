@@ -117,3 +117,7 @@
 1773042721541: ::1 GET: /api/users
 1773042732050: ::ffff:127.0.0.1 GET: /api/users/69a68e95d96fe1c0687c9bf0
 1773042732105: ::ffff:127.0.0.1 GET: /favicon.ico
+1773047750175: ::ffff:127.0.0.1 GET: /api/users/
+1773047750248: ::ffff:127.0.0.1 GET: /favicon.ico
+1773126153280: ::ffff:127.0.0.1 GET: /
+1773126185230: ::ffff:127.0.0.1 GET: /api/users/
