@@ -1,10 +1,13 @@
 const express = require("express");
+const path = require("path");
 const urlRoute = require("./routes/urlRoute");
 const { connectToMongoDB } = require("./connectMD");
+const URL = require("./models/url");
+const staticRouter = require("./routes/staticRouter");
 
 
 const app = express();
-const PORT = 8001;
+const PORT = 8000;
 
 connectToMongoDB("mongodb://127.0.0.1:27017/short-url").then(() =>
   console.log("Mongodb Connected"),
@@ -12,10 +15,13 @@ connectToMongoDB("mongodb://127.0.0.1:27017/short-url").then(() =>
 
 //////// ejs
 
- 
-
+ app.set("view engine", "ejs");
+ app.set("views",path.resolve("./views"));
 
 app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+
+app.use("/" ,staticRouter);
 
 app.use("/url", urlRoute);
 
