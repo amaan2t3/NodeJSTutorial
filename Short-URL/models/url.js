@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const { create } = require("./user");
 
 const urlSchema = mongoose.Schema(
   {
@@ -12,6 +13,10 @@ const urlSchema = mongoose.Schema(
       require: true,
     },
     visitHistory: [{ timestamp: { type: Number, default: Date.now } }],
+    createdBy: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+    },
   },
   { timestamps: true },
 );
