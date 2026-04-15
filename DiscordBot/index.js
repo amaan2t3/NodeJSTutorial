@@ -29,12 +29,9 @@ client.on("messageCreate", (message) => {
 
 client.on("interactionCreate", (interaction) => {
     console.log(interaction);
-    interaction.reply("Hello World");
+    interaction.reply("hey there you said " + interaction.content);
 
 })
 
 client.login(process.env.DISCORD_TOKEN)
 
-client.openai = new OpenAI({
-    apiKey: process.env.OPEN_AI_KEY
-})
